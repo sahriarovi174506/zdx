@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- title -->
+    <title>ZDX API</title>
+
+    <!-- favicon -->
+    <link href="img/favicon.svg" type="image/png" rel="icon">
+
+    <!-- all css here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/helper.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+
+
+    <!-- Header area -->
+    <header>
+        <div class="site_header">
+            <div class="container-fluid px-0">
+                <div class="d-flex align-items-center justify-content-between w-100">
+                    <a href="#" class="logo">
+                        <img src="./img/logo.svg" alt="">
+                    </a>
+                    <div class="primary_menu align-items-center d-flex">
+                        <a href="#" class="menu_link text_16 f_600">Chiptuning Files</a>
+                        <a href="#" class="menu_link text_16 f_600">Dealer Kit</a>
+                        <a href="#" class="menu_link text_16 f_600">WinOLS</a>
+                        <a href="#" class="menu_link text_16 f_600">Price List</a>
+                    </div>
+                    <div class="dot_icon hamburger d-lg-none d-flex align-items-center justify-content-center">
+                        <img src="./img/three_dots.png" alt="">
+                    </div>
+                    <div class="header_right d-lg-flex d-none align-items-center">
+                        <a href="#" class="user_icon">
+                            <p class="text_16 f_600">Login / Register</p>
+                            <img src="./img/user.svg" alt="">
+                        </a>
+                        <a href="#" class="dot_icon">
+                            <img src="./img/three_dots.png" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+    </header>
+
+    <main class="home_main">
+
+        <!-- Chiptuning_section -->
+        <section class="Chiptuning_section section_shadow">
+            <div class="container container_lg">
+                <div class="tollshop_header d-flex align-items-center justify-content-between">
+                    <h2 class="title_45 pb_55">ZDX Chiptuning Files</h2>
+                </div>
+
+                <div class="chiptunning_part_one">
+                    <div class="chiptunning_tabs nav nav-tabs" id="myTab" role="tablist">
+                        <button class="nav-link chiptab_nav active d-flex align-items-center justify-content-between"
+                            id="chipTab1-ta-tab" data-bs-toggle="tab" href="#chipTab1" role="tab"
+                            aria-controls="chipTab1" aria-selected="true">
+                            <div class="chiptab_btn_icon">
+                                <img src="./img/chiptunnning_file1.png" alt="">
+                            </div>
+                            <p>Car</p>
+                            <img src="/img/white_arrow_down.svg" class="white_arrow_down" alt="">
+                        </button>
+                        <button class="nav-link chiptab_nav d-flex align-items-center justify-content-between"
+                            id="chipTab2-tab" data-bs-toggle="tab" href="#chipTab2" role="tab" aria-controls="chipTab2"
+                            aria-selected="false">
+                            <div class="chiptab_btn_icon">
+                                <img src="./img/chiptunnning_file2.png" alt="">
+                            </div>
+                            <p>Truck</p>
+                            <img src="/img/white_arrow_down.svg" class="white_arrow_down" alt="">
+                        </button>
+                        <button class="nav-link chiptab_nav d-flex align-items-center justify-content-between"
+                            id="chipTab3-tab" data-bs-toggle="tab" href="#chipTab3" role="tab" aria-controls="chipTab3"
+                            aria-selected="false">
+                            <div class="chiptab_btn_icon">
+                                <img src="./img/chiptunnning_file3.png" alt="">
+                            </div>
+                            <p>Agriculture</p>
+                            <img src="/img/white_arrow_down.svg" class="white_arrow_down" alt="">
+                        </button>
+                        <button class="nav-link chiptab_nav d-flex align-items-center justify-content-between"
+                            id="chipTab4-tab" data-bs-toggle="tab" href="#chipTab4" role="tab" aria-controls="chipTab4"
+                            aria-selected="false">
+                            <div class="chiptab_btn_icon">
+                                <img src="./img/chiptunnning_file4.png" alt="">
+                            </div>
+                            <p>Motorcycle</p>
+                            <img src="/img/white_arrow_down.svg" class="white_arrow_down" alt="">
+                        </button>
+                        <button class="nav-link chiptab_nav d-flex align-items-center justify-content-between"
+                            id="chipTab5-tab" data-bs-toggle="tab" href="#chipTab5" role="tab" aria-controls="chipTab5"
+                            aria-selected="false">
+                            <div class="chiptab_btn_icon">
+                                <img src="./img/chiptunnning_file5.png" alt="">
+                            </div>
+                            <p>Marine</p>
+                            <img src="/img/white_arrow_down.svg" class="white_arrow_down" alt="">
+                        </button>
+                    </div>
+
+
+                    <div class="tab-content" id="myTabContent">
+                        <div class="tab-pane fade show active" id="chipTab1" role="tabpanel"
+                            aria-labelledby="chipTab1-tab">
+                            <div class="selectors_wrapper pt_45">
+                                <div class="selecters">
+                                    <div class="select_wrap">
+                                        <h4 class="text_15 f_600 pl_25 pb_15">Make</h4>
+                                        <div class="select d-flex align-items-center justify-content-between">
+                                            <p class="text_15 selected_text">Choose Make</p>
+                                            <img src="./img/arrow_down_black.svg" alt="">
+                                        </div>
+
+                                        <div class="select_dropdown">
+                                            <div class="select_list">
+                                                <p class="select_text">- Choose -</p>
+                                                <p class="select_text">Acura</p>
+                                                <p class="select_text">Alpha Romeo</p>
+                                                <p class="select_text">Alphina</p>
+                                                <p class="select_text">Alphina</p>
+                                                <p class="select_text">Aston Martin</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="select_wrap">
+                                        <h4 class="text_15 f_600 pl_25 pb_15">Make</h4>
+                                        <div class="select d-flex align-items-center justify-content-between">
+                                            <p class="text_15 select_text">Choose Make</p>
+                                            <img src="./img/arrow_down_black.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="select_wrap">
+                                        <h4 class="text_15 f_600 pl_25 pb_15">Make</h4>
+                                        <div class="select d-flex align-items-center justify-content-between">
+                                            <p class="text_15 select_text">Choose Make</p>
+                                            <img src="./img/arrow_down_black.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="select_wrap">
+                                        <h4 class="text_15 f_600 pl_25 pb_15">Make</h4>
+                                        <div class="select d-flex align-items-center justify-content-between">
+                                            <p class="text_15 select_text">Choose Make</p>
+                                            <img src="./img/arrow_down_black.svg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="chipTab2" role="tabpanel" aria-labelledby="chipTab2-tab">2
+                        </div>
+                        <div class="tab-pane fade" id="chipTab3" role="tabpanel" aria-labelledby="chipTab3-tab">3
+                        </div>
+                        <div class="tab-pane fade" id="chipTab4" role="tabpanel" aria-labelledby="chipTab4-tab">4
+                        </div>
+                        <div class="tab-pane fade" id="chipTab5" role="tabpanel" aria-labelledby="chipTab5-tab">5
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer -->
+    <footer class="site_footer">
+        <div class="container">
+            <div class="footer_contents pb_55 d-flex align-items-center">
+                <div class="footer_left">
+                    <a href="#" class="footer_logo">
+                        <img src="./img/footer_logo.svg" alt="">
+                    </a>
+
+                    <div class="social_icons d-flex align-items-center">
+                        <a href="#">
+                            <img src="./img/fb.svg" alt="">
+                        </a>
+                        <a href="#">
+                            <img src="./img/insta.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_boxes d-flex align-items-center">
+                    <div class="footer_box">
+                        <h2 class="text_19 f_600">Important</h2>
+                        <div class="footer_links">
+                            <a href="#">Terms & Conditions</a>
+                            <a href="#">About Us</a>
+                            <a href="#">Smart Tune</a>
+                            <a href="#">Price List</a>
+                        </div>
+                    </div>
+                    <div class="footer_box">
+                        <h2 class="text_19 f_600">Menu</h2>
+                        <div class="footer_links">
+                            <a href="#">Chiptuning Files</a>
+                            <a href="#">Dealer Kit</a>
+                            <a href="#">Smart Tune</a>
+                            <a href="#">Price List</a>
+                        </div>
+                    </div>
+                    <div class="footer_box">
+                        <h2 class="text_19 f_600">Contact Us</h2>
+                        <div class="footer_links">
+                            <a href="#"><img src="./img/iconmonstr-skype-1.svg" alt=""> Skype</a>
+                            <a href="#"><img src="./img/iconmonstr-whatsapp-1.svg" alt=""> Whatsapp</a>
+                            <a href="#"><img src="./img/iconmonstr-email-1.svg" alt=""> Contacts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copywrite d-flex align-items-center justify-content-between">
+                <p class="text_15"><span class="f_700">© 2022</span> ZDX Performance. All rights reserved</p>
+                <p class="text_15"><a href="#">Log in / Register</a><img src="./img/user.svg" alt=""></p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- all js here -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,555 @@
+@media (min-width: 1400px) {
+  .container_xl {
+    max-width: 1400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container_lg {
+    max-width: 1160px;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  html {
+    font-size: 45%;
+  }
+}
+
+/* ------ Medium devices (tablets, 991px and down) -----*/
+@media (max-width: 991px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  main {
+    margin-top: 0;
+  }
+
+  br {
+    display: none;
+  }
+
+  .title_55 {
+    font-size: 2.5rem;
+  }
+
+  /* Section top */
+
+  .Section_top {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .Section_top .title_55 {
+    padding: 2rem 0 2.5rem 0;
+  }
+
+  .Section_top .section_logo {
+    width: 15rem;
+  }
+
+  /* ======================= Mobile Menu ======================= */
+  .site_header {
+    background: transparent;
+  }
+
+  .site_header.sticky {
+    box-shadow: none;
+    animation: none !important;
+  }
+
+  .menu_up {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .primary_menu {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+    height: calc(100vh);
+    bottom: 5rem;
+    flex-direction: column;
+    gap: 0;
+    padding-top: 8rem;
+    overflow-y: auto;
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.3s ease;
+    z-index: -1;
+  }
+
+  .active_mobile .primary_menu {
+    opacity: 1;
+    pointer-events: all;
+    bottom: 0;
+  }
+
+  .menu_link {
+    height: 6rem;
+    width: 100%;
+    padding: 2rem;
+    border-bottom: 0.1rem solid #ececec;
+  }
+
+  .menu_link:hover {
+    background: #ececec;
+  }
+
+  .hamburger {
+    width: 4rem;
+    height: 4rem;
+    background: #000;
+    border-radius: 10rem;
+    margin-right: 1.2rem;
+    cursor: pointer;
+  }
+
+  .hamburger img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(0%)
+      hue-rotate(29deg) brightness(115%) contrast(101%);
+    width: 2.4rem;
+  }
+
+  .logo img {
+    width: 13.5rem;
+  }
+
+  .logo {
+    height: 6rem;
+  }
+
+  /* ======================= Hero Section ===================== */
+
+  .Hero_section {
+    padding: 25rem 0 6rem 0;
+    margin-top: 0;
+  }
+
+  .Hero_section .row {
+    flex-direction: column-reverse;
+    gap: 14rem;
+  }
+
+  .hero_image img:nth-child(1) {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .hero_image {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero_content {
+    text-align: center;
+  }
+
+  .hero_content p {
+    padding: 0;
+  }
+
+  .hero_content .title_65 {
+    padding: 2rem 0 5rem;
+    line-height: 1;
+    font-size: 5rem;
+  }
+
+  .hero_img_shape {
+    width: 100%;
+  }
+
+  .hero_img_dots {
+    z-index: 0;
+    width: 10rem;
+    top: -12rem;
+    right: -2rem;
+  }
+
+  /* ===================== System Flow ================= */
+  .system_flow_contents {
+    flex-direction: column;
+    gap: 4rem;
+    border: none;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  .system_arow .line {
+    width: 100vw;
+  }
+
+  .system_arow img {
+    transform: rotate(90deg);
+    width: 0.87rem;
+  }
+
+  .system_box p {
+    text-align: center;
+  }
+
+  .system_arow a {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.1rem solid #000;
+    border-radius: 10rem;
+  }
+
+  /* ===================== Services Section =================== */
+  .services_section .row.one {
+    flex-direction: column-reverse;
+  }
+
+  .services_section .row {
+    gap: 5.7rem;
+    padding-bottom: 5rem;
+  }
+
+  .service_image {
+    padding: 5rem 5em;
+    height: 50rem;
+  }
+
+  .services_section .row.three {
+    flex-direction: column-reverse;
+  }
+
+  .service_button .line {
+    display: none;
+  }
+
+  .service_button {
+    margin-top: 2rem;
+  }
+
+  .services_section {
+    padding: 8rem 0;
+  }
+
+  .services_section .row .col-lg-6:first-child {
+    padding-right: 0.8rem;
+  }
+
+  .services_section .row .col-lg-6:last-child {
+    padding-left: 0.8rem;
+  }
+
+  .service_content h2 {
+    padding: 2rem 0 4rem 1px;
+  }
+
+  .service_content p.pb_30 {
+    padding-bottom: 2rem;
+  }
+
+  .services_section .Section_top {
+    padding-bottom: 7rem;
+  }
+
+  .Section_top .title_55 {
+    padding: 2rem 0 4rem 0;
+    line-height: 1;
+  }
+
+  /* ===================== Footer Section =================== */
+  .footer_contents {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .footer_left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .social_icons {
+    margin: 0;
+  }
+
+  .footer_boxes .footer_box {
+    padding: 0;
+    width: 33.333%;
+  }
+
+  .footer_boxes {
+    padding: 0;
+    width: 100%;
+    gap: 10rem;
+    align-items: start !important;
+  }
+
+  /* ===================== My Cart ===================== */
+  .tollshop_header {
+    padding-bottom: 4rem;
+  }
+
+  .cart_items {
+    padding-bottom: 2rem;
+  }
+
+  .Cart_section {
+    padding: 12rem 0 15rem 0;
+  }
+  
+  /* ===================== ap1_1 ===================== */
+  .ap1_1 .hero_content p {
+    padding: 0;
+  }
+}
+
+/*----- sm devices (tablets, 767px and down) -----*/
+@media (max-width: 767px) {
+  html {
+    font-size: 62.5%;
+  }
+
+  .text_17 {
+    font-size: 1.4rem;
+  }
+
+  .button {
+    height: 4.5rem;
+  }
+
+  .row.gap_35 {
+    gap: 2.8rem;
+  }
+
+  .row.gap_35 > * {
+    padding: 0 0.8rem;
+  }
+
+  /* ============== Hero Section ================ */
+  .Hero_section {
+    padding: 15rem 0 3.5rem 0;
+  }
+
+  .hero_image img:nth-child(1) {
+    width: 30.3rem;
+    position: relative;
+    z-index: 9;
+  }
+
+  .hero_img_shape {
+    width: 36.7rem;
+  }
+
+  .hero_img_dots {
+    width: 7rem;
+    right: 7rem;
+    top: -3rem;
+  }
+
+  .Hero_section .row {
+    gap: 11.5rem;
+  }
+
+  .section_logo {
+    width: 15.5rem;
+  }
+
+  .hero_content .title_65 {
+    font-size: 2.5rem;
+    line-height: 3.8rem;
+    padding-bottom: 2rem;
+  }
+
+  /* =================== System Slow Section ===================== */
+  .system_flow_section {
+    padding: 0 0 7.3rem 0;
+  }
+
+  .system_box {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .system_flow_contents {
+    border-radius: 0;
+    gap: 1rem;
+  }
+
+  .system_box img {
+    width: 5.5rem !important;
+  }
+
+  /* ============== Service Section ================ */
+
+  .service_earth {
+    width: 12.5rem;
+    top: -3rem;
+    right: -3rem;
+  }
+
+  .service_image img:first-child {
+    width: 100%;
+  }
+
+  .service_image {
+    padding: 5.2rem;
+    height: 26.7rem;
+  }
+
+  .service_content h2 {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    padding: 1.8rem 0 2.4rem 0;
+  }
+
+  .world_map {
+    width: calc(100% - 3rem);
+    left: 1.5rem;
+  }
+
+  .service_logo {
+    width: 16rem !important;
+  }
+
+  /* ============== Footer Section ================ */
+  .site_footer .footer_contents {
+    border-top: 1.6rem solid #ececec;
+    padding-top: 4.3rem;
+  }
+
+  .site_footer {
+    border: none;
+  }
+
+  .footer_boxes .footer_box {
+    width: auto;
+  }
+
+  .footer_boxes {
+    gap: 3rem 5rem;
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .footer_logo img {
+    width: 17rem;
+  }
+
+  .social_icons a {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+
+  .footer_contents {
+    gap: 5rem;
+    padding-bottom: 4.7rem;
+  }
+
+  .copywrite p:last-child {
+    display: none;
+  }
+
+  .footer_box h2 {
+    padding-bottom: 1.8rem;
+  }
+
+  .copywrite {
+    padding-top: 3.6rem;
+  }
+
+  .site_footer {
+    padding: 4.3rem 0 4.5rem;
+  }
+
+  /* ======================= toolShop-cat-open =================== */
+  .tollshop_header .arrow_back_link {
+    display: none !important;
+  }
+
+  .tollshop_header h2 {
+    text-align: center;
+    width: 100%;
+  }
+
+  .tollshop_header {
+    padding-bottom: 4rem;
+  }
+
+  .title_45 {
+    font-size: 2.5rem;
+  }
+
+  .toolshop_section {
+    padding: 10.5rem 0 7.4rem 0;
+  }
+
+  /* ============== My Cart ================ */
+  .Cart_section {
+    padding: 10.5rem 0 6.2rem 0;
+  }
+
+  .cart_item {
+    display: grid !important;
+    grid-template-columns: 0fr 1fr;
+    gap: 3rem 2.2rem;
+    padding: 2.2rem 1rem 3rem 1rem;
+  }
+
+  .increse_items {
+    padding: 0;
+  }
+
+  .item_info {
+    padding: 0;
+  }
+
+  .increment_decrement {
+    justify-content: center;
+  }
+
+  .cart_item:not(:last-child) {
+    margin-bottom: 2rem;
+  }
+
+  .Cart_section .tollshop_header h2 {
+    width: fit-content;
+    justify-content: center;
+  }
+
+  .text_sm_number {
+    font-size: 1.5rem;
+    right: -1.5rem;
+  }
+
+  .Cart_section .tollshop_header {
+    justify-content: center !important;
+  }
+}
+
+/*----- xs devices (landscape phones, 575px and down) -----*/
+
+@media (max-width: 575px) {
+  html {
+    font-size: 2.3362vw;
+  }
+  .container {
+    padding-left: 3.7rem;
+    padding-right: 3.7rem;
+  }
+
+  /* ============ Hero Dots =========== */
+  .hero_img_dots {
+    width: 7rem;
+    right: 0rem;
+    top: -3rem;
+  }
+}
